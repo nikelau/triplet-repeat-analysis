@@ -19,7 +19,7 @@ It performs per-primer repeat selection, multithreaded batch processing, quality
 Clone this repository and install dependencies:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/triplet-repeat-analysis.git
+git clone https://github.com/nikelau/triplet-repeat-analysis.git
 cd triplet-repeat-analysis
 pip install -r requirements.txt
 ```
@@ -82,3 +82,4 @@ https://github.com/YOUR_USERNAME/triplet-repeat-analysis
 ## License
 
 This project is licensed under the MIT License (see [LICENSE](LICENSE)).
+
