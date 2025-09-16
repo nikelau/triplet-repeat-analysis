@@ -82,12 +82,13 @@ This ensures users can verify that the pipeline is working before applying it to
 If you use this code in an academic publication, please cite:
 
 ```
-Nike Kwai Cheung LAU. (2025). Triplet Repeat Analysis Pipeline, Zenodo. 
+Nike Kwai Cheung LAU. (2025). Triplet Repeat Analysis Pipeline (v1.0.0). Zenodo. 
 https://doi.org/10.5281/zenodo.17131507
 ```
 
 ## License
 
 This project is licensed under the MIT License (see [LICENSE](LICENSE)).
+
 
 
