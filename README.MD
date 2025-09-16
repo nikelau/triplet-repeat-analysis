@@ -19,7 +19,7 @@ It performs per-primer repeat selection, multithreaded batch processing, quality
 Clone this repository and install dependencies:
 
 ```bash
-git clone https://github.com/nikelau/triplet-repeat-analysis.git
+git clone https://github.com/YOUR_USERNAME/triplet-repeat-analysis.git
 cd triplet-repeat-analysis
 pip install -r requirements.txt
 ```
@@ -51,22 +51,29 @@ Results are saved in a subdirectory:
 * `*_dist.png` → visualization of repeat length distributions.
 * `*_summary.txt` → tab-delimited summary of retained reads.
 
-## Example
+## Example Data
 
-If you run:
+This repository includes a small example file for testing:
+
+* `triplet_example.fastq`
+
+You can run the pipeline directly on this file:
 
 ```bash
 python triplet_analysis.py
 ```
 
-on a directory with `sample.fastq.gz`, outputs will be created in:
+When prompted, select one or more primers.
+The output will be created in the `analysis_results/` folder:
 
 ```
 analysis_results/
-  ├── sample_SCA1_lengths.csv
-  ├── sample_SCA1_dist.png
-  └── sample_SCA1_summary.txt
+  ├── triplet_example_SCA1_lengths.csv
+  ├── triplet_example_SCA1_dist.png
+  └── triplet_example_SCA1_summary.txt
 ```
+
+This ensures users can verify that the pipeline is working before applying it to their own FASTQ/FASTQ.GZ datasets.
 
 ## Citation
 
@@ -82,4 +89,3 @@ https://github.com/YOUR_USERNAME/triplet-repeat-analysis
 ## License
 
 This project is licensed under the MIT License (see [LICENSE](LICENSE)).
-
