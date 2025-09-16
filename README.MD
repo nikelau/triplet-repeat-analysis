@@ -19,7 +19,7 @@ It performs per-primer repeat selection, multithreaded batch processing, quality
 Clone this repository and install dependencies:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/triplet-repeat-analysis.git
+git clone https://github.com/nikelau/triplet-repeat-analysis.git
 cd triplet-repeat-analysis
 pip install -r requirements.txt
 ```
@@ -81,7 +81,7 @@ If you use this code in an academic publication, please cite:
 
 ```
 Your Name, Triplet Repeat Analysis Pipeline, GitHub repository,
-https://github.com/YOUR_USERNAME/triplet-repeat-analysis
+https://github.com/nikelau/triplet-repeat-analysis
 ```
 
 (Once linked with Zenodo, replace with the DOI here.)
@@ -89,3 +89,4 @@ https://github.com/YOUR_USERNAME/triplet-repeat-analysis
 ## License
 
 This project is licensed under the MIT License (see [LICENSE](LICENSE)).
+
