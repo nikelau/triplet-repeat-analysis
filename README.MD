@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/1057874807.svg)](https://doi.org/10.5281/zenodo.17131507)
+
 # Triplet Repeat Analysis Pipeline
 
 This repository provides a Python pipeline for analyzing triplet repeat expansions from sequencing data (FASTQ/FASTQ.GZ).
@@ -80,13 +82,12 @@ This ensures users can verify that the pipeline is working before applying it to
 If you use this code in an academic publication, please cite:
 
 ```
-Your Name, Triplet Repeat Analysis Pipeline, GitHub repository,
-https://github.com/nikelau/triplet-repeat-analysis
+Nike Kwai Cheung LAU. (2025). Triplet Repeat Analysis Pipeline, Zenodo. 
+https://doi.org/10.5281/zenodo.17131507
 ```
-
-(Once linked with Zenodo, replace with the DOI here.)
 
 ## License
 
 This project is licensed under the MIT License (see [LICENSE](LICENSE)).
+
 
